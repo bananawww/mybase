@@ -2,10 +2,14 @@
 $body-fontfamily: 'stratos', Helvetica, arial, sans-serif;
 $heading-fontfamily: 'gimlet-display', Georgia, serif;
 
-$color-accent: red;
+// COLORS
+$color-text-body: rgba(0,0,0,.85);
+$color-accent: skyblue;
 $color-midgrey: rgba(0,0,0,.5);
+$color-links: #069;
+$color-links-dark: #035;
 
 // IMPORT PARTIALS
 @import 'partials/toc';
 @import 'partials/typography';
-
+@import 'partials/buttons';

@@ -6,13 +6,15 @@ CSS TABLE OF CONTENTS
     #BODY
     #TYPOGRAPHY
     #LINKS
-
+    #BUTTONS
 ------------------------ */
 /* BODY */
 body {
   font-family: "stratos", Helvetica, arial, sans-serif;
   font-size: 100%;
-  line-height: 1.4; }
+  line-height: 1.4;
+  background-color: #fdf5f5;
+  color: rgba(0, 0, 0, 0.85); }
 
 /* HEADINGS */
 h1, h2, h3 {
@@ -35,12 +37,41 @@ h3 {
 p {
   max-width: 35em; }
 
+/* HORIZONTAL RULE */
+hr {
+  border: 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.15);
+  margin: 3em 0; }
+
 /* TYPE SPECIMEN */
 .mainhead {
   font-size: 4em;
-  color: red; }
+  color: skyblue; }
 
 .subhead {
   font-family: "stratos", Helvetica, arial, sans-serif;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 1em; }
+
+/* LINKS */
+a {
+  color: #069; }
+
+a:hover {
+  color: #035; }
+
+/* BUTTONS */
+button,
+.button {
+  font-size: inherit;
+  background-color: #069;
+  color: #fff;
+  padding: 1em 2em;
+  display: inline-block;
+  margin: .5em;
+  border-radius: 2em; }
+  button:hover,
+  .button:hover {
+    background-color: #035;
+    color: #fff; }
