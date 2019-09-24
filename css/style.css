@@ -83,7 +83,7 @@ button,
   button.alt,
   .button.alt {
     color: #035;
-    background-color: #fff; }
+    background-color: transparent; }
     button.alt:hover,
     .button.alt:hover {
       background-color: #035;
