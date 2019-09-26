@@ -95,6 +95,10 @@ img {
   max-width: 100%;
   height: auto; }
 
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   font-size: 87.5%;
   margin: 0; }
@@ -108,5 +112,11 @@ body {
     font-size: 100%; } }
 
 @media (min-width: 1050px) {
+  .container {
+    max-width: 1050px; } }
+
+@media (min-width: 1050px) {
   body {
-    font-size: 112.5%; } }
+    font-size: 112.5%; }
+  .container {
+    max-width: 1050px; } }
